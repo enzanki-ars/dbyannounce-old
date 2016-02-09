@@ -141,8 +141,8 @@ announcements:
        * Jeffrey R. Reinhard Leadership Award  3/10/2016
        * Tau Chi USA Scholars  3/11/2016
       
-      For a complete list of available scholarships, visit [our school website]
-      (http://www.hilliardschools.org/hdb/guidance/college-information/scholarship-information/?preview=true&preview_id=5502&preview_nonce=f4c5de2fd9)
+      For a complete list of available scholarships, visit 
+      [our school website](http://www.hilliardschools.org/hdb/guidance/college-information/scholarship-information/?preview=true&preview_id=5502&preview_nonce=f4c5de2fd9)
   - title: Yearbook
     text: |
       Parents, coaches, and seniors, it is time to start thinking about Senior 
@@ -150,8 +150,7 @@ announcements:
       way. Wish ads are due March 10. All information and the order form are 
       available online: http://www.hilliardschools.org/classroom.cfm?id=484&TempID=1140
 
-      [Updated Senior Picture list. PLEASE CHECK OUR TYPING SKILLS!!]
-      (http://www.hilliardschools.org/classroom.cfm?id=484&TempID=12698)
+      [Updated Senior Picture list. PLEASE CHECK OUR TYPING SKILLS!!](http://www.hilliardschools.org/classroom.cfm?id=484&TempID=12698)
 
       Order your 2015-16 yearbook at www.jostensyearbooks.com or by calling 
       1-866-282-1516!
@@ -170,6 +169,5 @@ announcements:
        * Boys Basketball & Basketball Cheer: 2/9
        * Gymnastics: 2/18
       
-      [Darby Sports Schedule Feb 8 to Feb 14]
-      (http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Darby-Sports-Schedule-Feb-8-to-Feb-14.pdf)
+      [Darby Sports Schedule Feb 8 to Feb 14](http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Darby-Sports-Schedule-Feb-8-to-Feb-14.pdf)
 ---
