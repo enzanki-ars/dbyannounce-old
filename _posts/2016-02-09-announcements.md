@@ -125,24 +125,41 @@ announcements:
     text: | 
       Applications can be picked up in the Guidance Office.
       
-       * Columbus Blue Jackets/John H. McConnell Scholarship  2/12/2016
-       * Jackie Robinson Foundation Scholarship  2/15/2016
-       * Bethany Presbyterian Church/Louise Ann Luckey Scholarship  2/17/2016
-       * Alpha Kappa Alspa  Sorority Scholarships  2/19/2016
-       * Builders Exchange Scholarship  2/19/2016
-       * Hilliard Darby Athletic Boosters/Student Athlete Award  2/22/2016
-       * ASMC Buckeye Chapter Scholarship  2/29/2016
-       * Buick Achievers Scholarship Program  2/29/2016
-       * Education First Credit Union Scholarship  3/1/2016
-       * OAPSE/AFSCME Memorial Scholarship Foundation Program  3/1/2016
-       * Hilliard Kiwanis Scholarships  3/2/2016
-       * Zinggia – Art Scholarship  3/5/2016
-       * OAPSE Local #310 Scholarship  3/9/2016
-       * Jeffrey R. Reinhard Leadership Award  3/10/2016
-       * Tau Chi USA Scholars  3/11/2016
-      
       For a complete list of available scholarships, visit 
       [our school website](http://www.hilliardschools.org/hdb/guidance/college-information/scholarship-information/?preview=true&preview_id=5502&preview_nonce=f4c5de2fd9)
+
+    scholarships:
+      - name: Columbus Blue Jackets/John H. McConnell Scholarship  
+        date: 2/12/2016
+      - name: Jackie Robinson Foundation Scholarship
+        date: 2/15/2016
+      - name: Bethany Presbyterian Church/Louise Ann Luckey Scholarship
+        date: 2/17/2016
+      - name: Alpha Kappa Alspa Sorority Scholarships
+        date: 2/19/2016
+      - name: Builders Exchange Scholarship
+        date: 2/19/2016
+      - name: Hilliard Darby Athletic Boosters/Student Athlete Award
+        date: 2/22/2016
+      - name: ASMC Buckeye Chapter Scholarship
+        date: 2/29/2016
+      - name: Buick Achievers Scholarship Program
+        date: 2/29/2016
+      - name: Education First Credit Union Scholarship
+        date: 3/1/2016
+      - name: OAPSE/AFSCME Memorial Scholarship Foundation Program
+        date: 3/1/2016
+      - name: Hilliard Kiwanis Scholarships
+        date: 3/2/2016
+      - name: Zinggia – Art Scholarship
+        date: 3/5/2016
+      - name: OAPSE Local #310 Scholarship
+        date: 3/9/2016
+      - name: Jeffrey/ R. Reinhard Leadership Award
+        date: 3/10/2016
+      - name: Tau Chi USA Scholars
+        date: 3/11/2016
+
   - title: Yearbook
     text: |
       Parents, coaches, and seniors, it is time to start thinking about Senior 

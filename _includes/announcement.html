@@ -20,7 +20,22 @@
     {% if include.announcement.text %}
       {{ include.announcement.text | markdownify }}
     {% endif %}
-    
+    {% if include.announcement.scholarships %}
+      <table class="table table-striped">
+        <thead>
+	  <th>Name</th>
+	  <th>Due Date</th>
+	</thead>
+	<tbody>
+          {% for scholarship in include.announcement.scholarships %}
+            <tr>
+              <td>{{ scholarship.name }}</td>
+	      <td>{{ scholarship.date }}</td>
+	    </tr>
+          {% endfor %}
+	</tbody>
+      </table>
+    {% endif %}
     {% if include.announcement.extrainfo %}
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{ include.announcement.title | slugify }}">
