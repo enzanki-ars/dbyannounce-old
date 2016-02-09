@@ -2,9 +2,40 @@
 {% include postheader.html %}
 {% include postpages.html %}
 
-{% endfor %}
-
 {{ content }}
+
+{% if post.wordofthemonth %}
+  <h2>Word of the Month: {{ post.wordofthemonth }}</h2>
+{% endif %}
+
+{% if post.belatedbirthdays %}
+  <h2>Happy Belated Birthday!<h2>
+  <ul>
+  {% for birthday in post.belatedbirthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+{% if post.birthdays %}
+  <h2>Happy Birthday!<h2>
+  <ul>
+  {% for birthday in post.birthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% if post.events %}
+  <ul>
+  {% for event in post.events %}
+    <li>{{ event.date }}: {{ event.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% for announcement in page.announcements %}
+  {% include announcement.html announcement=announcement %}
+{% endfor %}
 
 {% include postpages.html %}
 {% include footer.html %}

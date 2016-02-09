@@ -1,0 +1,49 @@
+<div class="thumbnail">
+  {% if include.announcement.image %}
+    <img src="{{ include.announcement.image }}" {% if include.announcement.alt %}alt="{{ include.announcement.imagealt }}"{% endif %}>
+  {% endif %}
+  
+  <div class="caption">
+    <h2>{{ include.announcement.title }}</h2>
+    
+    {% if include.announcement.text %}
+      {{ info.text | markdownify }}
+    {% endif %}
+    
+    {% if include.announcement.extrainfo %}
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{ include.announcement.title | slugify }}">
+        {% if include.announcement.extrainfo.buttontext %}
+          {{ include.announcement.extrainfo.buttontext }}
+        {% else %}
+          More Info
+        {% endif %}
+      </button>
+    {% endif %}
+  </div>
+</div>
+
+{% if include.announcement.extrainfo %}
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="{{ include.announcement.title | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.announcement.title | slugify }}Label">
+  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h3 class="modal-title" id="{{ include.announcement.date }}Label">{{ include.announcement.title }}</h4>
+    </div>
+    <div class="modal-body">
+      {% if include.announcement.extrainfo.title %}
+        <h4>{{ include.announcement.extrainfo.title }}</h4>
+      {% endif %}
+      {% for announcement in include.announcement.extrainfo.announcements %}
+        {% include announcement.html announcement=announcement %}
+      {% endfor %}
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+  </div>
+</div>
+{% endif %}
