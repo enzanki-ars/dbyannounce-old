@@ -4,30 +4,30 @@
 
 {{ content }}
 
-{% if post.wordofthemonth %}
-  <h2>Word of the Month: {{ post.wordofthemonth }}</h2>
+{% if page.wordofthemonth %}
+  <h2>Word of the Month: {{ page.wordofthemonth }}</h2>
 {% endif %}
 
-{% if post.belatedbirthdays %}
+{% if page.belatedbirthdays %}
   <h2>Happy Belated Birthday!<h2>
   <ul>
-  {% for birthday in post.belatedbirthdays %}
+  {% for birthday in page.belatedbirthdays %}
     <li>{{ birthday.name }}</li>
   {% endfor %}
   </ul>
 {% endif %}
-{% if post.birthdays %}
+{% if page.birthdays %}
   <h2>Happy Birthday!<h2>
   <ul>
-  {% for birthday in post.birthdays %}
+  {% for birthday in page.birthdays %}
     <li>{{ birthday.name }}</li>
   {% endfor %}
   </ul>
 {% endif %}
 
-{% if post.events %}
+{% if page.events %}
   <ul>
-  {% for event in post.events %}
+  {% for event in page.events %}
     <li>{{ event.date }}: {{ event.name }}</li>
   {% endfor %}
   </ul>
