@@ -4,10 +4,12 @@
   {% endif %}
   
   <div class="caption">
-    <h2>{{ include.announcement.title }}</h2>
+    {% if include.announcement.title %}
+      <h2>{{ include.announcement.title }}</h2>
+    {% endif %}
     
     {% if include.announcement.text %}
-      {{ info.text | markdownify }}
+      {{ include.announcement.text | markdownify }}
     {% endif %}
     
     {% if include.announcement.extrainfo %}
