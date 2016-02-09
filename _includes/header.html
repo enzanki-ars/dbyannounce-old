@@ -124,7 +124,7 @@
               <li role="separator" class="divider"></li>
               {% for post in site.posts %}
                 <li>
-                  <a href="{{ post.url | prepend: site.github.url | replace_first:'http://','https://' }}">{{ post.title }}</a>
+                  <a href="{{ post.url | prepend: site.github.url | replace_first:'http://','https://' }}">{{ post.title | date: "%A, %B %d, %Y" }} - {{ post.title }}</a>
                 </li>
               {% endfor %}
             </ul>
