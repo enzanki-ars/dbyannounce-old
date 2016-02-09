@@ -27,7 +27,8 @@ events:
   - date: 2/8
     name: Board of Education Meeting @ 7 pm, Avery Elementary
   - date: 2/8
-    name: PTO Meeting @ 7 pm in the Media Center *DATE CHANGE*
+    datechange: true
+    name: PTO Meeting @ 7 pm in the Media Center
   - date: 2/8-2/11
     name: Students Schedule Classes for 2016-17
   - date: 2/10
