@@ -29,7 +29,7 @@
   <h2>Upcomming events:</h2>
   <ul>
   {% for event in page.events %}
-    <li>{{ event.date }}: {{ event.name }} {% if event.datechange %} - <span class="label label-danger">Date Change</span> {% endif %}</li>
+    <li>{% if event.datechange %} <span class="label label-danger">Date Change</span> {% endif %}{{ event.date }}: {{ event.name }}</li>
   {% endfor %}
   </ul>
 {% endif %}
