@@ -84,6 +84,7 @@ announcements:
       but it’s not until she meets “Maxine and Stephanie” that she finally gets a 
       taste of it.  Tickets available at https://www.localevelevents.com/events/details/1461
   - title: Seniors and Juniors
+    image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/VisitDayAnnouncementSlide_Jan16-300x200.jpg
     text: | 
       The upcoming day off on Monday, February 15 for Presidents Day is a great 
       opportunity to discover how Columbus State Community college can be a smart 
@@ -144,10 +145,8 @@ announcements:
       
       For a complete list of available scholarships, visit 
       http://www.hilliardschools.org/hdb/guidance/college-information/scholarship-information/?preview=true&preview_id=5502&preview_nonce=f4c5de2fd9
-  - title: 
+  - title: Yearbook
     text: |
-      Yearbook!
-
       Parents, coaches, and seniors, it is time to start thinking about Senior 
       Wish Ads for the yearbook! Honor your seniors in a special and lasting 
       way. Wish ads are due March 10. All information and the order form are 
