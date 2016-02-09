@@ -6,7 +6,15 @@
   <div class="caption">
     {% if include.announcement.title %}
     
-      <h2>{{ include.announcement.title }} {% if include.announcement.new %} <span class="label label-default">New</span> {% endif %}</h2>
+      <h2>
+        {{ include.announcement.title }} 
+        {% if include.announcement.new %} 
+          <span class="label label-default">New</span> 
+        {% endif %}
+        {% if include.announcement.updated %} 
+          <span class="label label-info">Updated</span> 
+        {% endif %}
+      </h2>
     {% endif %}
     
     {% if include.announcement.text %}

@@ -157,6 +157,7 @@ announcements:
       book so don’t want until the end of the sports season or months later to 
       share!
   - title: Darby Sports!
+    updated: true
     text: | 
       **Upcoming Senior Nights**
       
