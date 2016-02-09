@@ -27,11 +27,24 @@
 
 {% if page.events %}
   <h2>Upcomming events:</h2>
-  <ul>
-  {% for event in page.events %}
-    <li>{% if event.datechange %} <span class="label label-danger">Date Change</span> {% endif %}{{ event.date }}: {{ event.name }}</li>
-  {% endfor %}
-  </ul>
+  <table class="table table-striped">
+    <thead>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Location</th>
+    </thead>
+    <tbody>
+      {% for event in page.events  %}
+        <tr>
+          <td>{% if event.datechange %}<span class="label label-danger">Date Change</span> {% endif %}{{ event.name }}</td>
+          <td>{{ event.date }}</td>
+	  <td>{{ event.time }}</td>
+	  <td>{{ event.location }} </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 {% endif %}
 
 {% for announcement in page.announcements %}
@@ -39,4 +52,4 @@
 {% endfor %}
 
 {% include postpages.html %}
-{% include footer.html %}
+{% include footer.html %}i

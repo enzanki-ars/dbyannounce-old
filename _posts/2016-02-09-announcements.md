@@ -17,19 +17,25 @@ events:
   - date: 2/8-2/11
     name: Students Schedule Classes for 2016-17
   - date: 2/10
-    name: Parent/Teacher Conference Night 3-7 pm
+    name: Parent/Teacher Conference Night 
+    time: 3-7 pm
   - date: 2/12
     name: NO SCHOOL – Conference Comp. Day
   - date: 2/12 & 2/13
-    name: Darby Theater presents Leading Ladies @ 7 pm
+    name: Darby Theater presents Leading Ladies
+    time: 7 pm
   - date: 2/15
     name: NO SCHOOL – President’s Day
   - date: 2/18
     name: Cookie Day!
   - date: 2/18
-    name: Spring Sports Parent Night @ 6pm in the PAC (MS & HS)
+    name: Spring Sports Parent Night
+    time: 6pm 
+    location: PAC (MS & HS)
   - date: 2/19
-    name: Percussion Ensemble Concert @ 7 pm in the PAC
+    name: Percussion Ensemble Concert
+    time: 7 pm
+    location: PAC
     
 announcements:
   - title: PTO
