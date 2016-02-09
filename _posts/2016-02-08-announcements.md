@@ -1,5 +1,11 @@
 ---
 layout: announcements
+authors:
+  - name: Brenda Ribble
+    role: Author
+  - name: Alex Shafer 
+    username: enzanki-ars 
+    role: Developer
 wordofthemonth: Respect
 belatedbirthdays:
   - name: Joshua Salmons
