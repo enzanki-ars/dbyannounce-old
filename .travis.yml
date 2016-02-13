@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 rvm:
   - 2.3.0
-script: "jekyll build"
+script: "bundle exec jekyll build"
 branches:
   only:
    - gh-pages
