@@ -1,8 +1,8 @@
 language: ruby
 cache: bundler
 rvm:
-  - 2.2.2
-script: "bundle exec jekyll build"
+  - 2.3.0
+script: "bundle exec jekyll build --path=${BUNDLE_PATH:-vendor/bundle}"
 
 branches:
   only:
