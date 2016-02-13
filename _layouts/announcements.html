@@ -24,6 +24,14 @@
   {% endfor %}
   </ul>
 {% endif %}
+{% if page.weekendbirthdays %}
+  <h2>Happy Weekend Birthday!</h2>
+  <ul>
+  {% for birthday in page.weekendbirthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
 
 {% if page.events %}
   <h2>Upcomming events:</h2>
