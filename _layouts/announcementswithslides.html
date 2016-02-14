@@ -1,15 +1,10 @@
 {% include slidesheader.html %}
-{% include postheader.html %}
-{% include postpages.html %}
 
-{{ content }}
-
-<hr>
-	<div class="reveal">
-		<div class="slides">
-			{% if page.wordofthemonth %}
-				<section><h2>Word of the Month: {{ page.wordofthemonth }}</h2></section>
-			{% endif %}
+  <div class="reveal">
+    <div class="slides">
+      {% if page.wordofthemonth %}
+        <section><h2>Word of the Month: {{ page.wordofthemonth }}</h2></section>
+      {% endif %}
       {% if page.belatedbirthdays %}
         <section>
           <h2>Happy Belated Birthday!</h2>
@@ -60,56 +55,7 @@
           {% include announcement.html announcement=announcement %}
         </section>
       {% endfor %}
-		</div>
-	</div>
-<hr>
+    </div>
+  </div>
 
-{% if page.wordofthemonth %}
-  <h2>Word of the Month: {{ page.wordofthemonth }}</h2>
-{% endif %}
-
-{% if page.belatedbirthdays %}
-  <h2>Happy Belated Birthday!</h2>
-  <ul>
-  {% for birthday in page.belatedbirthdays %}
-    <li>{{ birthday.name }}</li>
-  {% endfor %}
-  </ul>
-{% endif %}
-{% if page.birthdays %}
-  <h2>Happy Birthday!</h2>
-  <ul>
-  {% for birthday in page.birthdays %}
-    <li>{{ birthday.name }}</li>
-  {% endfor %}
-  </ul>
-{% endif %}
-
-{% if page.events %}
-  <h2>Upcomming events:</h2>
-  <table class="table table-striped">
-    <thead>
-      <th>Name</th>
-      <th>Date</th>
-      <th>Time</th>
-      <th>Location</th>
-    </thead>
-    <tbody>
-      {% for event in page.events  %}
-        <tr>
-          <td>{% if event.datechange %}<span class="label label-danger">Date Change</span> {% endif %}{{ event.name }}</td>
-          <td>{{ event.date }}</td>
-	  <td>{{ event.time }}</td>
-	  <td>{{ event.location }} </td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-{% endif %}
-
-{% for announcement in page.announcements %}
-  {% include announcement.html announcement=announcement %}
-{% endfor %}
-
-{% include postpages.html %}
 {% include slidesfooter.html %}
