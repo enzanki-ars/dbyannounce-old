@@ -1,12 +1,9 @@
-<div class="thumbnail">
-  {% if include.announcement.image %}
-    <img src="{{ include.announcement.image }}" {% if include.announcement.alt %}alt="{{ include.announcement.imagealt }}"{% endif %}>
-  {% endif %}
+<div class="panel panel-default">
   
-  <div class="caption">
+  <div class="panel-heading">
     {% if include.announcement.title %}
     
-      <h2>
+      <h2 class="panel-title">
         {% if include.announcement.new %} 
           <span class="label label-default">New</span> 
         {% endif %}
@@ -16,25 +13,15 @@
         {{ include.announcement.title }} 
       </h2>
     {% endif %}
+  </div>
+  <div class="panel-body">
+    
+    {% if include.announcement.image %}
+      <img src="{{ include.announcement.image }}" class="img-responsive" {% if include.announcement.alt %}alt="{{ include.announcement.imagealt }}"{% endif %}>
+    {% endif %}
     
     {% if include.announcement.text %}
       {{ include.announcement.text | markdownify }}
-    {% endif %}
-    {% if include.announcement.scholarships %}
-      <table class="table table-striped">
-        <thead>
-	  <th>Name</th>
-	  <th>Due Date</th>
-	</thead>
-	<tbody>
-          {% for scholarship in include.announcement.scholarships %}
-            <tr>
-              <td>{{ scholarship.name }}</td>
-	      <td>{{ scholarship.date }}</td>
-	    </tr>
-          {% endfor %}
-	</tbody>
-      </table>
     {% endif %}
     {% if include.announcement.extrainfo %}
       <!-- Button trigger modal -->
@@ -47,6 +34,24 @@
       </button>
     {% endif %}
   </div>
+
+  
+  {% if include.announcement.scholarships %}
+    <table class="table table-striped">
+      <thead>
+        <th>Name</th>
+        <th>Due Date</th>
+      </thead>
+      <tbody>
+        {% for scholarship in include.announcement.scholarships %}
+          <tr>
+            <td>{{ scholarship.name }}</td>
+	    <td>{{ scholarship.date }}</td>
+	  </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
 </div>
 
 {% if include.announcement.extrainfo %}
