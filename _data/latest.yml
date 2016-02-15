@@ -53,7 +53,6 @@ events:
     
 announcements:
   - title: Current AP Students & Parents
-    slidetime: 15000
     text: | 
       We met with your students on January 22nd to give them the AP Bulletin 
       for Students and Parents, provide them with information about testing, 
@@ -65,7 +64,6 @@ announcements:
       this is your registration. Please contact Rachel Creamer or Trevor 
       Maggied with any questions you may have.
   - title: W.I.S.E Club Event
-    slidetime: 15000
     text: |
       The Hilliard Darby Women Informing Serving Empowering (WISE) Club will 
       host “Let Them Speak,” a candlelight vigil to encourage reportings of 
@@ -78,7 +76,6 @@ announcements:
       taylor.hannah.shook@gmail.com.
   - title: Hilliard Darby Theatre presents Leading Ladies
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/1058974_orig.png
-    slidetime: 30000
     text: |
       February 12 & 13 @ 7 pm
       
@@ -97,7 +94,6 @@ announcements:
       taste of it.  Tickets available at https://www.localevelevents.com/events/details/1461
   - title: Seniors and Juniors
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/VisitDayAnnouncementSlide_Jan16-300x200.jpg
-    slidetime: 15000
     text: | 
       The upcoming day off on Monday, February 15 for Presidents Day is a great 
       opportunity to discover how Columbus State Community college can be a smart 
@@ -109,7 +105,6 @@ announcements:
       space. Columbus State’s Visit Days fill up fast, and reservations are required, 
       so RSVP today.
   - title: Darby Winterguard
-    slidetime: 15000
     text: |
       Performance dates for the Hilliard Darby Winterguard.  More information will 
       be posted regarding performance times, locations & spectator cost in the future.
@@ -122,7 +117,6 @@ announcements:
        * Apr. 2- OIPA Championships
        * Apr. 7-9- WGI World Championships
   - title: Harlem Wizards!
-    slidetime: 15000
     text: |
       The Hilliard Rotary & Hilliard High School Interact Clubs are hosting the 
       Harlem Wizards (a globetrotter-type basketball team) who will be playing 
@@ -135,12 +129,10 @@ announcements:
       are being sold online at www.harlemwizards.com.  Go to Schedule & Tickets, 
       then March 1.  Please feel free to pass along this flyer!
   - title: College Announcements
-    slidetime: 10000
     text: | 
       Students and parents can now sign up for College Announcements through 
       enews.  Go to http://www.hilliardschools.org/ilc/guidance/college-announcements/
   - title: Upcoming Scholarship Deadlines
-    slidetime: 20000
     text: | 
       Applications can be picked up in the Guidance Office.
       
@@ -179,7 +171,6 @@ announcements:
         date: 3/11/2016
 
   - title: Yearbook
-    slidetime: 15000
     text: |
       Parents, coaches, and seniors, it is time to start thinking about Senior 
       Wish Ads for the yearbook! Honor your seniors in a special and lasting 
@@ -198,7 +189,6 @@ announcements:
       book so don’t want until the end of the sports season or months later to 
       share!
   - title: Darby Sports!
-    slidetime: 10000
     text: | 
       **Upcoming Senior Nights**
       
