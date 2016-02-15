@@ -6,32 +6,59 @@
 
   <div class="reveal">
     <div class="slides">
-      {% if site.pages.latest.wordofthemonth %}
-        <section><h2>Word of the Month: {{ site.pages.latest.wordofthemonth }}</h2></section>
+      {% if site.data.latest.wordofthemonth %}
+        <section
+            {% if site.data.latest.headerslidetime %}
+              data-autoslide="{{ site.data.latest.headerslidetime }}"
+            {% endif %}>
+          <h2>Word of the Month: {{ site.data.latest.wordofthemonth }}</h2>
+        </section>
       {% endif %}
-      {% if site.pages.latest.belatedbirthdays %}
-        <section>
+      {% if site.data.latest.belatedbirthdays %}
+        <section 
+            {% if site.data.latest.headerslidetime %}
+              data-autoslide="{{ site.data.latest.headerslidetime }}"
+            {% endif %}>
           <h2>Happy Belated Birthday!</h2>
           <ul>
-          {% for birthday in site.pages.latest.belatedbirthdays %}
+          {% for birthday in site.data.latest.belatedbirthdays %}
             <li>{{ birthday.name }}</li>
           {% endfor %}
           </ul>
         </section>
       {% endif %}
-      {% if site.pages.latest.birthdays %}
-        <section>
+      {% if site.data.latest.birthdays %}
+        <section
+            {% if site.data.latest.headerslidetime %}
+              data-autoslide="{{ site.data.latest.headerslidetime }}"
+            {% endif %}>
           <h2>Happy Birthday!</h2>
           <ul>
-          {% for birthday in site.pages.latest.birthdays %}
+          {% for birthday in site.data.latest.birthdays %}
             <li>{{ birthday.name }}</li>
           {% endfor %}
           </ul>
         </section>
       {% endif %}
-
-      {% if site.pages.latest.events %}
-        <section>
+      {% if site.data.latest.weekendbirthdays %}
+        <section
+            {% if site.data.latest.headerslidetime %}
+              data-autoslide="{{ site.data.latest.headerslidetime }}"
+            {% endif %}>
+          <h2>Happy Weekend Birthday!</h2>
+          <ul>
+          {% for birthday in site.data.latest.weekendbirthdays %}
+            <li>{{ birthday.name }}</li>
+          {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+      
+      {% if site.data.latest.events %}
+        <section 
+            {% if site.data.latest.headerslidetime %}
+              data-autoslide="{{ site.data.latest.headerslidetime }}"
+            {% endif %}>
           <h2>Upcomming events:</h2>
           <table>
             <thead>
@@ -41,7 +68,7 @@
               <th>Location</th>
             </thead>
             <tbody>
-              {% for event in site.pages.latest.events  %}
+              {% for event in site.data.latest.events  %}
                 <tr>
                   <td>{% if event.datechange %}<span class="label label-danger">Date Change</span> {% endif %}{{ event.name }}</td>
                   <td>{{ event.date }}</td>
@@ -54,12 +81,14 @@
         </section>
       {% endif %}
 
-      {% for announcement in site.pages.latest.announcements %}
-        <section>
+      {% for announcement in site.data.latest.announcements %}
+        <section
+            {% if announcement.slidetime %}
+              data-autoslide="{{ announcement.slidetime }}"
+            {% endif %}>
           {% include announcement.html announcement=announcement %}
         </section>
       {% endfor %}
     </div>
   </div>
-
 {% include slidesfooter.html %}

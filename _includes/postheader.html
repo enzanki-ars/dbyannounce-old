@@ -10,10 +10,16 @@
     {{ page.date | date: "%A, %B %d, %Y" }}
   </i>
   </br>
+{% elsif include.info.date %}
+  <i>
+    <i class="fa fa-calendar"></i>
+    {{ include.info.date | date: "%A, %B %d, %Y" }}
+  </i>
+  </br>
 {% endif %}
 
 {% if page.authors %}
-    <ul class="list-unstyled">
+  <ul class="list-unstyled">
     {% for author in page.authors %}
 	<li>
 	  <i class="fa fa-user"></i> {{ author.role }}: {{ author.name }}
@@ -22,7 +28,18 @@
 	  {% endif %}
 	</li>
     {% endfor %}
-</ul>
+  </ul>
+{% elsif include.info.authors %}
+  <ul class="list-unstyled">
+    {% for author in include.info.authors %}
+	<li>
+	  <i class="fa fa-user"></i> {{ author.role }}: {{ author.name }}
+	  {% if author.username %}
+	    (<a href="https://github.com/{{ author.username }}">{{ author.username }}</a>)
+	  {% endif %}
+	</li>
+    {% endfor %}
+  </ul>
 {% else %}
 	<i class="fa fa-user-times"></i> No author information provided.
 {% endif %}
