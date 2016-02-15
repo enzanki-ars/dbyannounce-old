@@ -1,32 +1,36 @@
+---
+---
+
 {% include slidesheader.html %}
+
 
   <div class="reveal">
     <div class="slides">
-      {% if page.wordofthemonth %}
-        <section><h2>Word of the Month: {{ page.wordofthemonth }}</h2></section>
+      {% if site.pages.latest.wordofthemonth %}
+        <section><h2>Word of the Month: {{ site.pages.latest.wordofthemonth }}</h2></section>
       {% endif %}
-      {% if page.belatedbirthdays %}
+      {% if site.pages.latest.belatedbirthdays %}
         <section>
           <h2>Happy Belated Birthday!</h2>
           <ul>
-          {% for birthday in page.belatedbirthdays %}
+          {% for birthday in site.pages.latest.belatedbirthdays %}
             <li>{{ birthday.name }}</li>
           {% endfor %}
           </ul>
         </section>
       {% endif %}
-      {% if page.birthdays %}
+      {% if site.pages.latest.birthdays %}
         <section>
           <h2>Happy Birthday!</h2>
           <ul>
-          {% for birthday in page.birthdays %}
+          {% for birthday in site.pages.latest.birthdays %}
             <li>{{ birthday.name }}</li>
           {% endfor %}
           </ul>
         </section>
       {% endif %}
 
-      {% if page.events %}
+      {% if site.pages.latest.events %}
         <section>
           <h2>Upcomming events:</h2>
           <table>
@@ -37,7 +41,7 @@
               <th>Location</th>
             </thead>
             <tbody>
-              {% for event in page.events  %}
+              {% for event in site.pages.latest.events  %}
                 <tr>
                   <td>{% if event.datechange %}<span class="label label-danger">Date Change</span> {% endif %}{{ event.name }}</td>
                   <td>{{ event.date }}</td>
@@ -50,7 +54,7 @@
         </section>
       {% endif %}
 
-      {% for announcement in page.announcements %}
+      {% for announcement in site.pages.latest.announcements %}
         <section>
           {% include announcement.html announcement=announcement %}
         </section>
