@@ -83,7 +83,7 @@ events:
   - date: 3/16
     name: Spring Sports Photo Day
   - date: 3/17
-    name:End of 3rd 9 Weeks
+    name: End of 3rd 9 Weeks
   - date: 3/17
     name: Cookie Day!
   - date: 3/18-3/24 
