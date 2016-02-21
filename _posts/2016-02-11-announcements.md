@@ -64,6 +64,12 @@ announcements:
       who pay via cash or check. If payment is made through MyPaymentsPlus, 
       this is your registration. Please contact Rachel Creamer or Trevor 
       Maggied with any questions you may have.
+  - title: Mathletes
+    text: |
+      Mathlete Practice this week is TODAY after school in room 104.  We 
+      will meet until 4:00 pm.  We will be working through the problem sets 
+      from the Bradley competition two weeks ago.  Bring your contest book 
+      if you still have it.  Mr. Miller will have your answer sheets.
   - title: W.I.S.E Club Event
     text: |
       The Hilliard Darby Women Informing Serving Empowering (WISE) Club will 

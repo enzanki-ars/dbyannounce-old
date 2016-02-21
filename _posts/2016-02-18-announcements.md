@@ -8,16 +8,16 @@ authors:
     role: Developer
 headerslidetime: 10000
 wordofthemonth: Respect
-belatedbirthdays:
-  - name: Brian Woodland
-  - name: Halli Reinhard
-  - name: Nnamdi Aninweze
-  - name: Julia Chapman
 birthdays:
-  - name: Keely Crothers
-  - name: Sydney Malone
-  - name: Caleb Hughes
-  - name: Mrs. Williams
+  - name: Kylan Fisher
+  - name: Makenna Von Gundy
+  - name: Andrew Black
+  - name: Griffin Wagner
+  - name: Avedis Escandon
+  - name: Esam Hammoudi
+  - name: William Pavlovic
+  - name: Sarah Bryant
+  - name: Madison Williams
 events:
   - date: 2/18
     name: Cookie Day!
@@ -29,8 +29,81 @@ events:
     name: Percussion Ensemble Concert
     time: 7 pm
     location: PAC
-    
+  - date: 2/29 
+    name: Theater Boosters
+    time: 6:45 pm
+    location: X-Theater
+  - date: 3/1
+    name: Coffee Connections with Dr. Marshhausen
+    time: 7:30 am
+    location: Starbucks in Mill Run
+  - date: 3/1
+    name: Harlem Wizards vs. HCSD Staff
+    time: 7 pm
+    location: Darby Main Gym
+  - date: 3/2
+    name: Coffee Connections with Dr. Marshhausen
+    time: 8 am
+    location: Scrambler Maries on Nike Station Way
+  - date: 3/2
+    name: Parent Workshop on Teen Sex Trafficing
+    time: 6 pm
+    location: Heritage Middle School
+  - date: 3/4
+    name: Coffee Connections with Dr. Marshhausen
+    time: 9 am
+    location: Panera Bread on Hilliard Rome Rd.
+  - date: 3/7
+    name: Gridiron Club Meeting
+    time: 7 pm
+    location: Room 160
+  - date: 3/7
+    name: Diamond Club Meeting
+    time: 7pm
+    location: Room 200
+  - date: 3/7–3/11
+    name: OGT Testing Week
+  - date: 3/8
+    name: Winter Band Concert
+    time: 7 pm
+    location: PAC
+  - date: 3/10
+    name: Winter Sports Awards Night
+    time: 5 pm for Middle School, 6:15 for High School in the PAC
+  - date: 3/14
+    name: Board of Education Meeting
+    time: 7 pm
+    location: Brown Elementary
+  - date: 3/15
+    name: NO SCHOOL – Professional Development Day for Staff
+  - date: 3/16
+    name: National Honor Society Induction
+    time: 8:30 am 
+    location: PAC
+  - date: 3/16
+    name: Spring Sports Photo Day
+  - date: 3/17
+    name:End of 3rd 9 Weeks
+  - date: 3/17
+    name: Cookie Day!
+  - date: 3/18-3/24 
+    name: NO SCHOOL - Spring Break
+  - date: 3/25
+    name: NO SCHOOL – Good Friday
+  - date: 3/28
+    name: Athletic Boosters Meeting 
+    time: 7 pm
+    location: Room 200
+  - date: 3/28
+    name: Theater Boosters Meeting 
+    time: 6:45pm 
+    location: X Theater
 announcements:
+  - title: Quarterly Report
+    text: |
+      Check out the most recently quarterly report!  Lots of great things 
+      happening at the Darb!
+      <https://slate.adobe.com/cp/6f9i4/>
   - title: Current AP Students & Parents
     text: | 
       We met with your students on January 22nd to give them the AP Bulletin 
@@ -44,7 +117,7 @@ announcements:
       Maggied with any questions you may have.
   - title: Mathletes
     text: |
-      Mathlete practice has been moved to Thursday after school.  We hope to 
+      Mathlete practice has been moved to TODAY after school.  We hope to 
       take our yearbook picture as well as distribute permission slips for 
       the OCTM statewide contest.  If you cannot make the meeting, stop by 
       and see Mr. Miller to pick up your permission slip during the school 
@@ -59,8 +132,10 @@ announcements:
       Sign-up sheet and payment collection in the main office.
   - title: Darby Winterguard
     text: |
-       * Feb. 21 - Wright State University
-       * Feb. 27 - Norwin High School (Pittsburg, PA)
+       * Feb. 21- Wright State University – They are performing at 
+         12:40 at Wright State Nutter Center in Dayton. Tickets are $11, 
+         parking is $5. The contest begins at 8 am and awards will be at 5 pm.
+       * Feb. 27- Nor win High School (Pittsburg, PA)
   - title: Harlem Wizards!
     text: |
       The Hilliard Rotary & Hilliard High School Interact Clubs are hosting the 
@@ -84,8 +159,6 @@ announcements:
       For a complete list of available scholarships, visit 
       [our school website](http://www.hilliardschools.org/hdb/guidance/college-information/scholarship-information/)
     scholarships:
-      - name: Bethany Presbyterian Church/Louise Ann Luckey Scholarship
-        date: 2/17/2016
       - name: Alpha Kappa Alspa Sorority Scholarships
         date: 2/19/2016
       - name: Builders Exchange Scholarship
@@ -134,22 +207,6 @@ announcements:
       **Upcoming Senior Nights**
       
        * Gymnastics: 2/18
-      
-      Competition Cheer – The winning continues for the Darby Varsity Competition 
-      Cheerleaders. Darby — host of the 2015 OCC Championships — took first place 
-      in the extremely competitive Cardinal Division, besting Dublin Jerome and 
-      Hilliard Bradley who were second and third, respectively. The Darby Varsity 
-      Cheerleaders also brought home the Grand Champion Runner-up trophy. The 
-      girls compete at Dublin Jerome this weekend before heading to the state 
-      championships at OSU’s St. John’s on March 6.
-      
-      Gymnastics – The Darby gymnasts competed in the OCC championships on Saturday.  
-      The team scored a 122.90, taking home 3rd place.  The girls increased their 
-      beam score by 3 points and scored their second highest team score of the 
-      season! Chloe Shook placed 3rd on vault, 6th on bars, 5th on beam, and 
-      2nd in All Around.  Marissa Huffman was voted as gymnast of the meet for 
-      her perseverance.  Excellent job ladies!  Senior night will be held this 
-      Thursday at Hilliard Bradley against Tri-Valley.
       
       [Darby Sports Schedule Feb 16 to Feb 21](http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Darby-Weekly-Sports-Schedule-Feb-16-to-Feb-21.pdf)
 ---
