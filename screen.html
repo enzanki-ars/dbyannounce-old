@@ -17,7 +17,7 @@ layout: screen
   </div>
   <marquee scrollamount="5">
     {% for item in site.data.scroll.scroll %}
-      <span class="label label-{{item.type | default: 'default'}">{{ item.text }}</span>
+      <span class="label label-{{item.type | default: 'default'}}">{{ item.text }}</span>
     {% endfor %}
   </marquee>
 </div>
