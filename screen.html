@@ -17,10 +17,13 @@ layout: screen
   </div>
   <marquee scrollamount="5">
     {% for header in site.data.scroll.scroll.header %}
-      <span class="label label-{{header.type | default: 'default'}}">{{ header.title }}</span>
+      <span class="label label-{{ header.type | default: 'default' }}">{{ header.title }}</span>
       {% for item in header.scroll %}
-        <span class="label label-{{item.type | default: 'default'}}">{{ item.text }}</span>
+        <span class="label label-{{ item.type | default: 'default' }}">{{ item.text }}</span>
       {% endfor %}
     {% endfor %}
+    <span class="label label-info">Site Metadata</span>
+    <span class="label label-default">Last Updated: {{ site.time }}</span>
+    <span class="label label-default">Commit {{ site.github.build_revision | slice: 0,6}}</span>
   </marquee>
 </div>
