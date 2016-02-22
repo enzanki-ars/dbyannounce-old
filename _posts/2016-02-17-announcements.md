@@ -43,6 +43,7 @@ announcements:
       this is your registration. Please contact Rachel Creamer or Trevor 
       Maggied with any questions you may have.
   - title: Mathletes
+    updated: true
     text: |
       Mathlete practice has been moved to Thursday after school.  We hope to 
       take our yearbook picture as well as distribute permission slips for 
@@ -50,6 +51,7 @@ announcements:
       and see Mr. Miller to pick up your permission slip during the school 
       day on Thursday.
   - title: Intramural Bowling
+    new: true
     text: |
       The new dates for Bowling Intramurals are:
       
@@ -58,6 +60,7 @@ announcements:
       A $25 fee is due per bowler.  Checks should be made payable to Hilliard Darby HS.  
       Sign-up sheet and payment collection in the main office.
   - title: Darby Winterguard
+    updated: true
     text: |
        * Feb. 21 - Wright State University
        * Feb. 27 - Norwin High School (Pittsburg, PA)
@@ -130,6 +133,7 @@ announcements:
       book so don’t want until the end of the sports season or months later to 
       share!
   - title: Darby Sports!
+    updated: true
     text: | 
       **Upcoming Senior Nights**
       
