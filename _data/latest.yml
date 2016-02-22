@@ -23,10 +23,6 @@ weekendbirthdays:
   - name: Mrs.Griffith
   - name: Mr. Miller
 events:
-  - date: 2/19
-    name: Percussion Ensemble Concert
-    time: 7 pm
-    location: PAC
   - date: 2/29 
     name: Theater Boosters
     time: 6:45 pm
@@ -97,22 +93,17 @@ events:
     time: 6:45pm 
     location: X Theater
 announcements:
-  - title: Quarterly Report
+  - title: Mathletes
+    new: true
     text: |
-      Check out the most recently quarterly report!  Lots of great things 
-      happening at the Darb!
-      <https://slate.adobe.com/cp/6f9i4/>
-  - title: Current AP Students & Parents
-    text: | 
-      We met with your students on January 22nd to give them the AP Bulletin 
-      for Students and Parents, provide them with information about testing, 
-      and hand out the registration form. <strong>The deadline to register 
-      is Friday, February 19, 2016. You are encouraged to register on-line via 
-      MyPaymentsPlus,</strong> but are also able to register and pay via cash 
-      or check in the Guidance Office. A registration form is required by all students 
-      who pay via cash or check. If payment is made through MyPaymentsPlus, 
-      this is your registration. Please contact Rachel Creamer or Trevor 
-      Maggied with any questions you may have.
+      	Mathletes will practice after school Wednesday in room 104.  Please turn in permission 
+      	slips for Saturday’s competition at Ohio State as soon as possible to Mr. Miller.
+  - title: Student Groups
+    new: true
+    text: |
+      	Student Groups with Mrs. Canty and Ms. Monseur Durr will meet in the computer lab 254 
+      	during 7th and 8th periods on Thursday. Please check CANVAS for your specific meeting 
+      	time. See  you there!
   - title: Intramural Bowling
     text: |
       The new dates for Bowling Intramurals are:
@@ -121,12 +112,6 @@ announcements:
       
       A $25 fee is due per bowler.  Checks should be made payable to Hilliard Darby HS.  
       Sign-up sheet and payment collection in the main office.
-  - title: Darby Winterguard
-    text: |
-       * Feb. 21- Wright State University – They are performing at 
-         12:40 at Wright State Nutter Center in Dayton. Tickets are $11, 
-         parking is $5. The contest begins at 8 am and awards will be at 5 pm.
-       * Feb. 27- Nor win High School (Pittsburg, PA)
   - title: Harlem Wizards!
     text: |
       The Hilliard Rotary & Hilliard High School Interact Clubs are hosting the 
@@ -166,6 +151,8 @@ announcements:
         date: 3/1/2016
       - name: Hilliard Kiwanis Scholarships
         date: 3/2/2016
+      - name: American Association of Blacks in Energy Scholarship
+        date: 3/4/2016
       - name: Zinggia – Art Scholarship
         date: 3/5/2016
       - name: OAPSE Local #310 Scholarship
