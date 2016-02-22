@@ -100,6 +100,7 @@ events:
     location: X Theater
 announcements:
   - title: Quarterly Report
+    new: true
     text: |
       Check out the most recently quarterly report!  Lots of great things 
       happening at the Darb!
@@ -116,6 +117,7 @@ announcements:
       this is your registration. Please contact Rachel Creamer or Trevor 
       Maggied with any questions you may have.
   - title: Mathletes
+    updated: true
     text: |
       Mathlete practice has been moved to TODAY after school.  We hope to 
       take our yearbook picture as well as distribute permission slips for 
@@ -131,6 +133,7 @@ announcements:
       A $25 fee is due per bowler.  Checks should be made payable to Hilliard Darby HS.  
       Sign-up sheet and payment collection in the main office.
   - title: Darby Winterguard
+    updated: true
     text: |
        * Feb. 21- Wright State University – They are performing at 
          12:40 at Wright State Nutter Center in Dayton. Tickets are $11, 
@@ -203,6 +206,7 @@ announcements:
       book so don’t want until the end of the sports season or months later to 
       share!
   - title: Darby Sports!
+    updated: true
     text: | 
       **Upcoming Senior Nights**
       
