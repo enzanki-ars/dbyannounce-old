@@ -15,6 +15,7 @@ layout: screen
       </iframe>
     </div>
   </div>
+  <hr>
   <marquee scrollamount="5" style="font-size: large;">
     {% for header in site.data.scroll.header %}
       <span class="label label-{{ header.type | default: 'default' }}">{{ header.title }}</span>
