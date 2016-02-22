@@ -15,7 +15,7 @@ layout: screen
       </iframe>
     </div>
   </div>
-  <marquee scrollamount="5">
+  <marquee scrollamount="5" style="font-size: large;">
     {% for header in site.data.scroll.scroll.header %}
       <span class="label label-{{ header.type | default: 'default' }}">{{ header.title }}</span>
       {% for item in header.scroll %}
@@ -23,7 +23,7 @@ layout: screen
       {% endfor %}
     {% endfor %}
     <span class="label label-info">Site Metadata</span>
-    <span class="label label-default">Last Updated: {{ site.time }}</span>
-    <span class="label label-default">Commit {{ site.github.build_revision | slice: 0,6}}</span>
+    <span class="label label-default">Last Updated: {{ site.time | date: '%B %d, %Y' }}</span>
+    <span class="label label-default">Commit: {{ site.github.build_revision | slice: 0,6}}</span>
   </marquee>
 </div>
