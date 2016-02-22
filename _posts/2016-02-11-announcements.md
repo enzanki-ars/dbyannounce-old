@@ -54,6 +54,7 @@ events:
     
 announcements:
   - title: Current AP Students & Parents
+    new: true
     text: | 
       We met with your students on January 22nd to give them the AP Bulletin 
       for Students and Parents, provide them with information about testing, 
@@ -71,6 +72,7 @@ announcements:
       from the Bradley competition two weeks ago.  Bring your contest book 
       if you still have it.  Mr. Miller will have your answer sheets.
   - title: W.I.S.E Club Event
+    updated: true
     text: |
       The Hilliard Darby Women Informing Serving Empowering (WISE) Club will 
       host “Let Them Speak,” a candlelight vigil to encourage reportings of 
