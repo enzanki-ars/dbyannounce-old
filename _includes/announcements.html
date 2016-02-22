@@ -1,6 +1,8 @@
 {% include header.html %}
 {% include postheader.html info=include.from %}
-{% include postpages.html %}
+{% if include.showpages | default: true %}
+  {% include postpages.html %}
+{% endif %}
 
 {% if include.from.wordofthemonth %}
   <h2>Word of the Month: {{ include.from.wordofthemonth }}</h2>
