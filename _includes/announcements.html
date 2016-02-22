@@ -1,0 +1,65 @@
+{% include htmlheader.html %}
+{% include header.html %}
+{% include postheader.html info=include.from %}
+{% if include.showpages | default: true %}
+  {% include postpages.html %}
+{% endif %}
+
+{% if include.from.wordofthemonth %}
+  <h2>Word of the Month: {{ include.from.wordofthemonth }}</h2>
+{% endif %}
+
+{% if include.from.belatedbirthdays %}
+  <h2>Happy Belated Birthday!</h2>
+  <ul>
+  {% for birthday in include.from.belatedbirthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+{% if include.from.birthdays %}
+  <h2>Happy Birthday!</h2>
+  <ul>
+  {% for birthday in include.from.birthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+{% if include.from.weekendbirthdays %}
+  <h2>Happy Weekend Birthday!</h2>
+  <ul>
+  {% for birthday in include.from.weekendbirthdays %}
+    <li>{{ birthday.name }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% if include.from.events %}
+  <h2>Upcomming events:</h2>
+  <table class="table table-striped">
+    <thead>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Location</th>
+    </thead>
+    <tbody>
+      {% for event in include.from.events  %}
+        <tr>
+          <td>{% if event.datechange %}<span class="label label-danger">Date Change</span> {% endif %}{{ event.name }}</td>
+          <td>{{ event.date }}</td>
+	  <td>{{ event.time }}</td>
+	  <td>{{ event.location }} </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% for announcement in include.from.announcements %}
+  {% include announcement.html announcement=announcement %}
+{% endfor %}
+
+{% include postpages.html %}
+{% include footer.html %}
+{% include htmlfooter.html %}
