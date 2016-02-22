@@ -1,3 +1,5 @@
-scroll:
-  - text: "Testing Scroll"
-  - text: "Just a simple test."
+header:
+  - title: "Title"
+    scroll:
+      - text: "Testing Scroll"
+      - text: "Just a simple test."
