@@ -194,6 +194,7 @@ announcements:
       book so don’t want until the end of the sports season or months later to 
       share!
   - title: Hilliard Club Hockey
+    new: true
     text: |
       The Hilliard Club Hockey team finished regular season play with a 3-1 
       win against the Northeast Storm and a 3-3 tie against the Dayton Stealth. 
