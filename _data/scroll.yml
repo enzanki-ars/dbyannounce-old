@@ -1,6 +1,7 @@
 header:
   - title: "Upcoming events"
     type: info
+    icon: calendar
     scroll:
       - text: 2/29 – Theater Boosters @ 6:45 pm in the X-Theater
       - text: 3/1 – Coffee Connections with Dr. Marshhausen @ 7:30 am, Starbucks in Mill Run
@@ -12,14 +13,3 @@ header:
       - text: 3/7 – Diamond Club Meeting @ 7 pm in room 200
       - text: 3/7 – 3/11 – OGT Testing Week
       - text: 3/8 – Winter Band Concert @ 7 pm in the PAC
-      - text: 3/10 – Winter Sports Awards Night @ 5 pm for Middle School, 6:15 for High School in the PAC
-      - text: 3/14 – Board of Education Meeting @ 7 pm, Brown Elementary
-      - text: 3/15 – NO SCHOOL – Professional Development Day for Staff
-      - text: 3/16 – National Honor Society Induction @ 8:30 am in the PAC
-      - text: 3/16 – Spring Sports Photo Day
-      - text: 3/17 – End of 3rd 9 Weeks
-      - text: 3/17 – Cookie Day!
-      - text: 3/18-3/24 NO SCHOOL Spring Break
-      - text: 3/25 – NO SCHOOL – Good Friday
-      - text: 3/28 – Athletic Boosters Meeting @ 7 pm, room 200
-      - text: 3/28 – Theater Boosters Meeting @ 6:45 in the X Theater
