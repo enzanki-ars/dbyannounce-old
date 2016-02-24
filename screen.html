@@ -33,23 +33,32 @@ overrideheader: "30px"
     <hr>
     <marquee scrollamount="5" style="font-size: x-large;">
       <span class="label label-default">
-        <i class="fa fa-ellipsis-h"></i>
+        <i class="fa fa-ellipsis-v"></i>
       </span>
       <span class="label label-info">
         <i class="fa fa-github-square"></i>
         Site Metadata
       </span>
       <span class="label label-default">
+        <i class="fa fa-ellipsis-v"></i>
+      </span>
+      <span class="label label-default">
         <i class="fa fa-clock-o"></i>
         Last Updated: {{ site.time | date: '%B %d, %Y' }}
+      </span>
+      <span class="label label-default">
+        <i class="fa fa-ellipsis-v"></i>
       </span>
       <span class="label label-default">
         <i class="fa fa-git-square"></i>
         Commit: {{ site.github.build_revision | slice: 0,6}}
       </span>
+      <span class="label label-default">
+        <i class="fa fa-ellipsis-v"></i>
+      </span>
       {% for header in site.data.scroll.header %}
         <span class="label label-default">
-          <i class="fa fa-ellipsis-h"></i>
+          <i class="fa fa-ellipsis-v"></i>
         </span>
         <span class="label label-{{ header.type | default: 'default' }}">
           {% if header.icon %} 
@@ -70,7 +79,7 @@ overrideheader: "30px"
         {% endfor %}
       {% endfor %}
       <span class="label label-default">
-        <i class="fa fa-ellipsis-h"></i>
+        <i class="fa fa-ellipsis-v"></i>
       </span>
     </marquee>
   </div>
