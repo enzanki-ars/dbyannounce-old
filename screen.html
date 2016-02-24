@@ -45,7 +45,7 @@ layout: screen
         </span>
         {% for item in header.scroll %}
           <span class="label label-{{ item.type | default: 'default' }}">
-            % if header.icon %} 
+            {% if header.icon %} 
               <i class="fa fa-{{ item.icon }}"></i>
             {% endif %}
             {{ item.text }}
