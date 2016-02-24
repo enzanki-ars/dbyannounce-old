@@ -6,29 +6,31 @@ layout: screen
   <strong>Warning:</strong> This page does not work yet on small screens, Please increase your screen size until this message disappears and refresh the page.
 </div>
 
-<div class="container-fluid">
-  <div class="row row-eq-height">
-    <div class="col-md-9">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="{{ site.github.url | replace_first:'http://','https://' }}/slides.html"></iframe>
+<div class="visible-md-block visible-lg-block">
+  <div class="container-fluid">
+    <div class="row row-eq-height">
+      <div class="col-md-9">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ site.github.url | replace_first:'http://','https://' }}/slides.html"></iframe>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <iframe src='https://hilliardschools.gofmx.com/embed/calendar?search=&buildings=49057&view=agenda' 
+          style='width: 92.5%; height: 100%; border: 2px solid #e6e6e6; border-radius: 4px; position: absolute;'>
+        </iframe>
       </div>
     </div>
-    <div class="col-md-3">
-      <iframe src='https://hilliardschools.gofmx.com/embed/calendar?search=&buildings=49057&view=agenda' 
-        style='width: 92.5%; height: 100%; border: 2px solid #e6e6e6; border-radius: 4px; position: absolute;'>
-      </iframe>
-    </div>
-  </div>
-  <hr>
-  <marquee scrollamount="5" style="font-size: large;">
-    {% for header in site.data.scroll.header %}
-      <span class="label label-{{ header.type | default: 'default' }}">{{ header.title }}</span>
-      {% for item in header.scroll %}
-        <span class="label label-{{ item.type | default: 'default' }}">{{ item.text }}</span>
+    <hr>
+    <marquee scrollamount="5" style="font-size: large;">
+      {% for header in site.data.scroll.header %}
+        <span class="label label-{{ header.type | default: 'default' }}">{{ header.title }}</span>
+        {% for item in header.scroll %}
+          <span class="label label-{{ item.type | default: 'default' }}">{{ item.text }}</span>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-    <span class="label label-info">Site Metadata</span>
-    <span class="label label-default">Last Updated: {{ site.time | date: '%B %d, %Y' }}</span>
-    <span class="label label-default">Commit: {{ site.github.build_revision | slice: 0,6}}</span>
-  </marquee>
+      <span class="label label-info">Site Metadata</span>
+      <span class="label label-default">Last Updated: {{ site.time | date: '%B %d, %Y' }}</span>
+      <span class="label label-default">Commit: {{ site.github.build_revision | slice: 0,6}}</span>
+    </marquee>
+  </div>
 </div>
