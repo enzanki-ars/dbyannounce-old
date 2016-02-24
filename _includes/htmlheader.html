@@ -52,16 +52,28 @@
   <style>
     {% if page.overrideheader %}
     body {
+      padding-top: {{ page.overrideheader }};
+      padding-bottom: 20px;
+    }
+    :target:before, .thumbnail:before {
+      content:"";
+      display:block;
+      height:{{ page.overrideheader }}px; /* fixed header height*/
+      margin:-{{ page.overrideheader }}px 0 0; /* negative fixed header height */
+    }
+    {% else %}
+    body {
       padding-top: 70px;
       padding-bottom: 20px;
     }
     :target:before, .thumbnail:before {
       content:"";
       display:block;
-      height:60px; /* fixed header height*/
-      margin:-60px 0 0; /* negative fixed header height */
+      height:70px; /* fixed header height*/
+      margin:-70px 0 0; /* negative fixed header height */
     }
     {% endif %}
+    
     /*
      * Row with equal height columns
      * --------------------------------------------------
