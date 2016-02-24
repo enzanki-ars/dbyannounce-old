@@ -23,7 +23,9 @@ overrideheader: "5%"
     </div>
     <hr>
     <marquee scrollamount="5" style="font-size: x-large;">
-      <i class="fa fa-ellipsis-h"></i>
+      <span class="label label-default">
+        <i class="fa fa-ellipsis-h"></i>
+      </span>
       <span class="label label-info">
         <i class="fa fa-github-square"></i>
         Site Metadata
@@ -37,15 +39,19 @@ overrideheader: "5%"
         Commit: {{ site.github.build_revision | slice: 0,6}}
       </span>
       {% for header in site.data.scroll.header %}
-        <i class="fa fa-ellipsis-h"></i>
+        <span class="label label-default">
+          <i class="fa fa-ellipsis-h"></i>
+        </span>
         <span class="label label-{{ header.type | default: 'default' }}">
           {% if header.icon %} 
             <i class="fa fa-{{ header.icon }}"></i>
           {% endif %}
           {{ header.title }}
         </span>
-        <i class="fa fa-ellipsis-v"></i>
         {% for item in header.scroll %}
+          <span class="label label-default">
+            <i class="fa fa-ellipsis-v"></i>
+          </span>
           <span class="label label-{{ item.type | default: 'default' }}">
             {% if header.icon %} 
               <i class="fa fa-{{ item.icon }}"></i>
@@ -54,7 +60,9 @@ overrideheader: "5%"
           </span>
         {% endfor %}
       {% endfor %}
-      <i class="fa fa-ellipsis-h"></i>
+      <span class="label label-default">
+        <i class="fa fa-ellipsis-h"></i>
+      </span>
     </marquee>
   </div>
 </div>
