@@ -22,7 +22,7 @@ overrideheader: "5%"
       </div>
     </div>
     <hr>
-    <marquee scrollamount="5" style="font-size: large;">
+    <marquee scrollamount="5" style="font-size: x-large;">
       <i class="fa fa-ellipsis-h"></i>
       <span class="label label-info">
         <i class="fa fa-github-square"></i>
@@ -44,6 +44,7 @@ overrideheader: "5%"
           {% endif %}
           {{ header.title }}
         </span>
+        <i class="fa fa-ellipsis-v"></i>
         {% for item in header.scroll %}
           <span class="label label-{{ item.type | default: 'default' }}">
             {% if header.icon %} 
