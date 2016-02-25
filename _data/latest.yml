@@ -8,12 +8,9 @@ authors:
 headerslidetime: 10000
 wordofthemonth: Respect
 birthdays:
-  - name: Kathryn Wisecup
-  - name: Katherine Geers
-  - name: Emily Wolf
-  - name: Najana Hopson
-  - name: Blaize Shiebler
-  - name: Mrs. Leeka
+  - name: Ryan Gunter
+  - name: Rahul Manne
+  - name: Emily Schneck
 events:
   - date: 2/29 
     name: Theater Boosters
@@ -86,10 +83,8 @@ events:
     location: X Theater
 announcements:
   - title: Backpack Drive
-    new: true
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Backpack-Drive-464x600.jpg
   - title: Learning with Your iPad
-    new: true
     text: |
       February 24, 2016 • 6:30-8:00 pm at Memorial Middle School Media Center
       
@@ -114,6 +109,9 @@ announcements:
       Student Groups with Mrs. Canty and Ms. Monseur Durr will meet in the computer lab 254 
       during 7th and 8th periods on Thursday. Please check CANVAS for your specific meeting 
       time. See you there!
+  - title: Time Out Finals
+    new: true
+    image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/finals-promo-600x463.jpg
   - title: Intramural Bowling
     text: |
       The new dates for Bowling Intramurals are:
@@ -187,5 +185,11 @@ announcements:
   - title: Darby Sports!
     updated: true
     text: | 
+      Gymnastics – The Darby gymnastics team competed in the Little Districts competition 
+      on Monday evening, at Thomas Worthington.  Highlight scores of the meet included Niya 
+      Shalash placing 8th in All Around with a 28.3 and Liz Avilla taking 9th on Floor with 
+      a score of 8.15.  Hailey Hacker had a successful no fall beam routine and Reema Ayesh 
+      had a personal best on bars with a score of 6.75!  The Darby gymnasts will compete in 
+      Districts this coming Saturday at Worthington Kilbourne.   Good Luck Panthers!
       
       [Darby Sports Schedule Feb 22 to Feb 28](http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Darby-Weekly-Schedule-Feb-22-to-Feb-28.pdf)
