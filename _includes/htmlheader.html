@@ -130,6 +130,35 @@
     }
   </script>
   
+  {% if page.hascal %}
+    <link rel='stylesheet' type='text/css' href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css' />
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
+    <script type='text/javascript'>
+    
+    	$(document).ready(function() {
+    		
+    		$('#calendar').fullCalendar({
+    			header: {
+    				left: 'prev,next today',
+    				center: 'title',
+    				right: 'month,agendaWeek,agendaDay'
+    			},
+    			defaultDate: '{{ page.date | date: "%Y-%m-%d" }}',
+    			defaultView: 'basicDay',
+    			editable: false,
+    			googleCalendarApiKey: '	AIzaSyCZHE5Ts4nL19uHMzNglqydt0qkp6kKsLs',
+            events: {
+                googleCalendarId: 'eepvq71eqetl4tts6o8feb42ee285tn6@import.calendar.google.com'
+            }
+    		});
+    		
+    	});
+    
+    </script>
+  {% endif %}
+  
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
 </head>
 <body>
