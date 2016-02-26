@@ -8,12 +8,18 @@ authors:
 headerslidetime: 10000
 wordofthemonth: Respect
 birthdays:
-  - name: Bradford Whittaker
-  - name: Dina Kunitskaya
-  - name: Ryan Cochran
-  - name: Eve Walters
-  - name: Richard Walker
-  - name: Zackary Webb Dyke
+  - name: Leny Torrico Sahonero
+  - name: Jason Fleischman
+  - name: Taylor Leone
+  - name: William Sayre
+  - name: Ms. Hurley
+weekendbirthdays:
+  - name: Audrey Craddick
+  - name: Edleen Nieto
+  - name: Jenna Beerman
+  - name: Alondra Hernandez Gomez
+  - name: David Huff
+  - name: Annie Rauch
 events:
   - date: 2/29 
     name: Theater Boosters
@@ -87,11 +93,6 @@ events:
 announcements:
   - title: Backpack Drive
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Backpack-Drive-464x600.jpg
-  - title: Student Groups
-    text: |
-      Student Groups with Mrs. Canty and Ms. Monseur Durr will meet in the computer lab 254 
-      during 7th and 8th periods on Thursday. Please check CANVAS for your specific meeting 
-      time. See you there!
   - title: Time Out Finals
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/finals-promo-600x463.jpg
   - title: Intramural Bowling
