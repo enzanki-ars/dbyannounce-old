@@ -8,9 +8,12 @@ authors:
 headerslidetime: 10000
 wordofthemonth: Respect
 birthdays:
-  - name: Ryan Gunter
-  - name: Rahul Manne
-  - name: Emily Schneck
+  - name: Bradford Whittaker
+  - name: Dina Kunitskaya
+  - name: Ryan Cochran
+  - name: Eve Walters
+  - name: Richard Walker
+  - name: Zackary Webb Dyke
 events:
   - date: 2/29 
     name: Theater Boosters
@@ -84,33 +87,12 @@ events:
 announcements:
   - title: Backpack Drive
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Backpack-Drive-464x600.jpg
-  - title: Learning with Your iPad
-    text: |
-      February 24, 2016 • 6:30-8:00 pm at Memorial Middle School Media Center
-      
-      Description: This workshop will highlight some of the apps used by our students in the One2One 
-      initiative. We will have presentation stations for each app so you can come and learn about the 
-      apps you’re interested in and go from station to station at your own pace.
-      
-      Topics will include:
-      * Canvas
-      * iBooks
-      * Notability
-      * Explain Everything
-      * Google Apps for Education (Drive, Docs, Sheets, Slides)
-      * iMovie
-      * Keynote
-  - title: Mathletes
-    text: |
-      Mathletes will practice after school Wednesday in room 104.  Please turn in permission 
-      slips for Saturday’s competition at Ohio State as soon as possible to Mr. Miller.
   - title: Student Groups
     text: |
       Student Groups with Mrs. Canty and Ms. Monseur Durr will meet in the computer lab 254 
       during 7th and 8th periods on Thursday. Please check CANVAS for your specific meeting 
       time. See you there!
   - title: Time Out Finals
-    new: true
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/finals-promo-600x463.jpg
   - title: Intramural Bowling
     text: |
@@ -137,7 +119,6 @@ announcements:
       Students and parents can now sign up for College Announcements through 
       enews.  Go to http://www.hilliardschools.org/ilc/guidance/college-announcements/
   - title: Upcoming Scholarship Deadlines
-    updated: true
     text: | 
       Applications can be picked up in the Guidance Office.
       
@@ -185,11 +166,6 @@ announcements:
   - title: Darby Sports!
     updated: true
     text: | 
-      Gymnastics – The Darby gymnastics team competed in the Little Districts competition 
-      on Monday evening, at Thomas Worthington.  Highlight scores of the meet included Niya 
-      Shalash placing 8th in All Around with a 28.3 and Liz Avilla taking 9th on Floor with 
-      a score of 8.15.  Hailey Hacker had a successful no fall beam routine and Reema Ayesh 
-      had a personal best on bars with a score of 6.75!  The Darby gymnasts will compete in 
-      Districts this coming Saturday at Worthington Kilbourne.   Good Luck Panthers!
+
       
       [Darby Sports Schedule Feb 22 to Feb 28](http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Darby-Weekly-Schedule-Feb-22-to-Feb-28.pdf)
