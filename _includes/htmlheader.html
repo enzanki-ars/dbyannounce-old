@@ -59,13 +59,13 @@
     {% if page.overrideheader %}
     body {
       padding-top: {{ page.overrideheader }};
-      padding-bottom: 20px;
+      padding-bottom: {{ page.overrideheader }};
     }
     :target:before, .thumbnail:before {
       content:"";
       display:block;
-      height:{{ page.overrideheader }}px; /* fixed header height*/
-      margin:-{{ page.overrideheader }}px 0 0; /* negative fixed header height */
+      height:{{ page.overrideheader }}; /* fixed header height*/
+      margin:-{{ page.overrideheader }} 0 0; /* negative fixed header height */
     }
     {% else %}
     body {
