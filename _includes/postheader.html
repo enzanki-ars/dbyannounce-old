@@ -16,6 +16,12 @@
     {{ include.info.date | date: "%A, %B %d, %Y" }}
   </i>
   </br>
+{% elsif include.info.lastupdate %}
+  <i>
+    <i class="fa fa-calendar"></i>
+    {{ include.info.lastupdate | date: "%A, %B %d, %Y" }}
+  </i>
+  </br>
 {% endif %}
 
 {% if page.authors %}

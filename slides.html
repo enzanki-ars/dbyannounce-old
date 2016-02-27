@@ -12,6 +12,9 @@
               data-autoslide="{{ site.data.latest.headerslidetime }}"
             {% endif %}>
           <h2>Word of the Month: {{ site.data.latest.wordofthemonth }}</h2>
+          <p>
+            Last Updated: {{ site.data.latest.lastupdate | default: "No date given" }}
+          </p>
         </section>
       {% endif %}
       {% if site.data.latest.belatedbirthdays %}
