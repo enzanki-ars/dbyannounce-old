@@ -5,28 +5,13 @@ authors:
   - name: Alex Shafer 
     username: enzanki-ars 
     role: Developer
-lastupdate: March 1st, 2016
+lastupdate: March 2nd, 2016
 headerslidetime: 10000
 wordofthemonth: Respect
 birthdays:
-  - name: Camryn Castle
-  - name: Faith Leach
-weekendbirthdays:
-  - name: Audrey Craddick
-  - name: Edleen Nieto
-  - name: Jenna Beerman
-  - name: Alondra Hernandez Gomez
-  - name: David Huff
-  - name: Annie Rauch
+  - name: Tanner Kollath
+  - name: Cameron Tackett
 events:
-  - date: 3/1
-    name: Harlem Wizards vs. HCSD Staff
-    time: 7 pm
-    location: Darby Main Gym
-  - date: 3/2
-    name: Coffee Connections with Dr. Marshhausen
-    time: 8 am
-    location: Scrambler Maries on Nike Station Way
   - date: 3/2
     name: Parent Workshop on Teen Sex Trafficing
     time: 6 pm
@@ -35,6 +20,9 @@ events:
     name: Coffee Connections with Dr. Marshhausen
     time: 9 am
     location: Panera Bread on Hilliard Rome Rd.
+  - date: 3/7 
+    name: PTO Meeting
+    time: 11 am
   - date: 3/7
     name: Gridiron Club Meeting
     time: 7 pm
@@ -83,18 +71,16 @@ events:
 announcements:
   - title: Backpack Drive
     image: http://www.hilliardschools.org/hdb/wp-content/uploads/sites/19/Backpack-Drive-464x600.jpg
-  - title: Harlem Wizards!
+  - title: ASVAB Testing
     text: |
-      The Hilliard Rotary & Hilliard High School Interact Clubs are hosting the 
-      Harlem Wizards (a globetrotter-type basketball team) who will be playing 
-      Hilliard elementary school teachers.  This is a fundraising event with proceeds 
-      going to various local, regional, and international charities.  The Wizards 
-      will be having assemblies at  our elementary schools during the day on 
-      Tuesday, March 1, to talk about anti-bullying, teamwork, healthy lifestyles, 
-      and respect.  On Tuesday, March 1 at 7:00 pm, the Wizards will play Hilliard 
-      teachers in a fun and participatory basketball game here at Darby.  Tickets 
-      are being sold online at www.harlemwizards.com.  Go to Schedule & Tickets, 
-      then March 1.  Please feel free to pass along this flyer!
+      A sign up sheet for the ASVAB military testing is in the guidance office.  
+      The test will be given on April 1st at 8 am at our Central Office, 2140 Atlas St.  
+      Students will need to provide their own transportation.
+  - title: Ohio Business College Visit
+    text: |
+      Ohio Business College will be at Darby on Wednesday, March 16th at 9:00 a.m. 
+      to meet with any students interested in finding out more about them.  Please 
+      stop by the guidance office to sign up for the visit!
   - title: College Announcements
     text: | 
       Students and parents can now sign up for College Announcements through 
@@ -122,6 +108,68 @@ announcements:
         date: 3/10/2016
       - name: Tau Chi USA Scholars
         date: 3/11/2016
+      - name: Hilliard Area Chamber of Commerce/Hollyfest Scholarship
+        date: 3/16/2016
+      - name: Hilliard Area Realty Association Scholarship
+        date: 3/16/2016
+      - name: Lauri Foder Memorial Scholarship
+        date: 3/16/2016
+      - name: Hilliard Girls Travel Basketball Program/Female Scholar-Athlete Scholarship 
+        date: 3/16/2016
+      - name: The Terry Reed Gridiron Club Scholarship
+        date: 3/17/2016
+      - name: Credit Union of Ohio- Stevel Stoffel Memorial Scholarhip
+        date: 3/17/2016
+      - name: Rotary Club of Hilliard 
+        date: 3/17/2016
+      - name: Brittanie Nichole Cecil Memorial Schoarship  
+        date: 3/17/2016
+      - name: HEA Scholarship  
+        date: 3/17/2016
+      - name: The Carolyn Dougherty “Lead a Legacy” Scholarship  
+        date: 3/17/2016
+      - name: Hilliard Music Boosters  
+        date: 3/17/2016
+      - name: HEF/Cody Jewell Memorial Scholarship  
+        date: 3/28/2016
+      - name: HEF – Memorial Scholarship  
+        date: 3/28/2016
+      - name: Heritage Faculty Scholarship  
+        date: 3/29/2016
+      - name: Hilliard Optimist Club  
+        date: 3/30/2016
+      - name: Hilliard Baha’i Community/Avaregan Baha’i Scholarship  
+        date: 3/30/2016
+      - name: Columbus Italian Club Scholarship  
+        date: 3/31/2016
+      - name: HBA – Roger Greene Memorial Scholarship  
+        date: 3/31/2016
+      - name: Ohio Newspaper Foundation/Minority Journalism Scholarhip  
+        date: 3/31/2016
+      - name: Hilliard Alumni Association/John Crumly Music Scholarship  
+        date: 3/31/2016
+      - name: Hilliard Alumni Association/Vivian Boyd Brown Education Scholarship  
+        date: 3/31/2016
+      - name: HGSA/Harold Lawson Memorial Scholarship  
+        date: 3/31/2016
+      - name: Norwich Township Fire Fighters – Local 1723  
+        date: 3/31/2016
+      - name: Darlene Schultz Memorial Scholarship
+        date: 4/1/2016
+      - name: Columbus Jewish Foundation/Cole Essay Contest
+        date: 4/4/2016
+      - name: William D. Squires Scholarship  
+        date: 4/5/2016
+      - name: Hilliard Adminstrators Scholarship Fund  
+        date: 4/11/2016
+      - name: Columbus State Community College/Future Leadesr Scholarship  
+        date: 4/15/2016
+      - name: Hilliard Arts Council  
+        date: 4/15/2016
+      - name: LendEDU  
+        date: 4/15/2016
+      - name: Student Insights/Student-View Scholarship  
+        date: 4/22/2016
   - title: Yearbook
     text: |
       Parents, coaches, and seniors, it is time to start thinking about Senior 
