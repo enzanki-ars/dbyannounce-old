@@ -1,5 +1,7 @@
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-github-metadata
 
+repository: enzanki-ars/dbyannounce
 exclude: [vendor]
