@@ -3,5 +3,5 @@
 bundle exec jekyll build
 htmlhint _site
 jshint _site --extract=always
-csslint _site/*.css
+csslint _site/css/main.css
 
