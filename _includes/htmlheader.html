@@ -41,7 +41,7 @@
     <meta name="twitter:image" content="{{ site.github.owner_gravatar_url }}">
   {% endif %}
   
-  <title>{{ page.title }}</title>
+  <title>{{ page.title | default: "dbyannounce" }}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -55,69 +55,8 @@
       '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')
   </script>
   
-  <style>
-    {% if page.overrideheader %}
-    body {
-      padding-top: {{ page.overrideheader }};
-      padding-bottom: {{ page.overrideheader }};
-    }
-    :target:before, .thumbnail:before {
-      content:"";
-      display:block;
-      height:{{ page.overrideheader }}; /* fixed header height*/
-      margin:-{{ page.overrideheader }} 0 0; /* negative fixed header height */
-    }
-    {% else %}
-    body {
-      padding-top: 70px;
-      padding-bottom: 20px;
-    }
-    :target:before, .thumbnail:before {
-      content:"";
-      display:block;
-      height:70px; /* fixed header height*/
-      margin:-70px 0 0; /* negative fixed header height */
-    }
-    {% endif %}
-    
-    /*
-     * Row with equal height columns
-     * --------------------------------------------------
-     */
-    .row-eq-height {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display:         flex;
-    }
-    /* Make it a marquee */
-    .marquee {
-      width: 100%;
-      white-space: nowrap;
-      box-sizing: border-box;
-      animation-name: marquee;
-      animation-duration: 20s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      position: absolute;
-    }
-    .marquee:hover {
-      animation-play-state: paused
-    }
-    
-    /* Make it move */
-    @keyframes marquee {
-      0% {
-        left: 100%
-      }
-      100% {
-        left: -100%
-      }
-    }
-  </style>
-  
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
-
+  
   <script>
     function loadSuccess() {
       var div_x = document.getElementById('blockedInfo');
@@ -137,11 +76,11 @@
   </script>
   
   {% if page.hascal %}
-    <link rel='stylesheet' type='text/css' href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css' />
-    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
-    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.js'></script>
-    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
-    <script type='text/javascript'>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="fullcalendar/gcal.js"></script>
+    <script type="text/javascript">
     
     	$(document).ready(function() {
     		
@@ -159,7 +98,21 @@
     
     </script>
   {% endif %}
-  
+  <link rel="stylesheet" type="text/css" href="{{ site.github.url | replace_first:'http://','https://'}}" />
+  <style>
+    {% if page.overrideheader %}
+    body {
+      padding-top: {{ page.overrideheader }};
+      padding-bottom: {{ page.overrideheader }};
+    }
+    :target:before, .thumbnail:before {
+      content:"";
+      display:block;
+      height:{{ page.overrideheader }}; /* fixed header height*/
+      margin:-{{ page.overrideheader }} 0 0; /* negative fixed header height */
+    }
+    {% endif %}
+  </style>  
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
 </head>
 <body>
