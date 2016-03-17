@@ -1,2 +1,1 @@
-# Darby Announcements
-DEMO of announcement page
+# Website Template
