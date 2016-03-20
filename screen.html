@@ -12,6 +12,7 @@ display: main
 {% if page.display == 'main' %}
   <div class="row">
     <div class="col-md-9">
+      <h3 id="time"></h3>
       <div class="embed-responsive embed-responsive-4by3">
         <iframe class="embed-responsive-item" src="{{ site.github.url | replace_first:'http://','https://' }}/slides.html"></iframe>
       </div>
@@ -31,10 +32,15 @@ setInterval(reload, 10000);
 
 function reload(){
   $.get("{{ site.github.url }}",function(data){
-    if("{{ site.github.commit }}"===data) {
-        location.reload(true);
-      }
-    });
-  }
+    if("{{ site.github.commit }}"!==data) {
+      location.reload(true);
+    }
+  });
+}
+
+setInterval(time, 1000);
+function time(){
+  var time = Date();
+  document.getElementById("time").interHTML = time.toLocaleTimeString();
 }
 </script>
