@@ -27,20 +27,3 @@ display: main
 {% elsif page.display == 'scoreboard' %}
   
 {% endif %}
-<script>
-setInterval(reload, 10000);
-
-function reload(){
-  $.get("{{ site.github.url }}",function(data){
-    if("{{ site.github.commit }}"!==data) {
-      location.reload(true);
-    }
-  });
-}
-
-setInterval(time, 1000);
-function time(){
-  var time = Date();
-  document.getElementById("time").interHTML = time.toLocaleTimeString();
-}
-</script>

@@ -6,6 +6,22 @@
       console.log(($(window).width() + $(".marquee").width()) / 30);
       console.log("Commit: {{ site.github.build_revision }}");
     });
+
+    setInterval(reload, 10000);
+
+    function reload(){
+      $.get("{{ site.github.url }}",function(data){
+        if("{{ site.github.commit }}"!==data) {
+          location.reload(true);
+        }
+      });
+    }
+
+    setInterval(time, 1000);
+    function time(){
+      var time = Date();
+      document.getElementById("time").interHTML = time.toLocaleTimeString();
+    }
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
