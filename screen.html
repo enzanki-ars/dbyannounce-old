@@ -27,9 +27,14 @@ display: main
   
 {% endif %}
 <script>
-$.get("{{ site.github.url }}",function(data){
-  if("{{ site.github.commit }}"===data) {
-      location.reload(true);
-    }
-  });
+setInterval(reload, 10000);
+
+function reload(){
+  $.get("{{ site.github.url }}",function(data){
+    if("{{ site.github.commit }}"===data) {
+        location.reload(true);
+      }
+    });
+  }
+}
 </script>
