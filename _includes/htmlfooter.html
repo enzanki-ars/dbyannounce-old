@@ -10,9 +10,13 @@
     setInterval(reload, 10000);
 
     function reload(){
-      $.get("{{ site.github.url }}",function(data){
+      $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit", function(data){
         if("{{ site.github.commit }}"!==data) {
           location.reload(true);
+          console.log("Reloading: Was {{ site.github.commit }} - Now " + data);
+        }
+        else {
+          console.log("Not Reloading: Current {{ site.github.commit }} - Recieved " + data);
         }
       });
     }
