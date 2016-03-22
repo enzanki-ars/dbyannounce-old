@@ -1,9 +1,10 @@
 
   <script>
     $(window).load(function() {
+      var time = ($(window).width() + $(".marquee").width()) / 5
       $(".marquee")
-        .css("animation-duration", ($(window).width() + $(".marquee").width()) / 15 + "s")
-      console.log(($(window).width() + $(".marquee").width()) / 15);
+        .css("animation-duration", time + "s")
+      console.log(time);
       console.log("Commit: {{ site.github.build_revision }}");
     });
 
