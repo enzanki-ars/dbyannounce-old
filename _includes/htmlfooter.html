@@ -1,27 +1,25 @@
 
   <script>
     $(window).load(function() {
-      var time = ($(window).width() + $(".marquee").width()) / 25
+      var time = ($(window).width() + $(".marquee").width()) / 30
       $(".marquee")
         .css("animation-duration", time + "s")
       console.log(time);
       console.log("Commit: {{ site.github.build_revision }}");
     });
-
-    setInterval(reload, 10000);
+    {% if page.setreload %}
+    setInterval(reload, {{ page.setreload }} * 1000);
 
     function reload(){
-      $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit?commit={{ site.github.build_revision }}", function(data){
-        var curr = "{{ site.github.build_revision }}"
+      $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit",{ "_": $.now() }, function(data){
+        var curr = "{{ site.github.build_revision }}";
         if(curr !== data.trim()) {
-          window.location = "{{ site.github.url | replace_first:'http://','https://' }}/screen.html?commit={{ site.github.build_revision }}"
+          window.location = "{{ site.github.url | replace_first:'http://','https://' }}/screen.html?commit=" + data;
           console.log("Reloading: Was " + curr + " - Now " + data);
-        }
-        else {
-          console.log("Not Reloading: Current " + curr + " - Recieved " + data);
         }
       });
     }
+    {% endif %}
 
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
