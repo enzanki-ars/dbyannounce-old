@@ -11,7 +11,7 @@
 
     function reload(){
       $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit?commit={{ site.github.build_revision }}", function(data){
-        curr = "{{ site.github.build_revision }}"
+        var curr = "{{ site.github.build_revision }}"
         if(curr !== data) {
           window.location = "{{ site.github.url | replace_first:'http://','https://' }}/screen.html?commit={{ site.github.build_revision }}"
           console.log("Reloading: Was " + curr + " - Now " + data);
