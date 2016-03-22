@@ -2,6 +2,7 @@
 
 require 'rss'
 require 'open-uri'
+Bundler.setup
 require 'reverse_markdown'
 
 rss_feed = "http://www.hilliardschools.org/hdb/category/announcements/feed/"
