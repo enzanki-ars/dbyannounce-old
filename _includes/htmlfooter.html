@@ -11,7 +11,7 @@
 
     function reload(){
       $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit?commit={{ site.github.build_revision }}", function(data){
-        if("{{ site.github.build_revision }}"!=data) {
+        if("{{ site.github.build_revision }}".localeCompare(data) !== 0) {
           window.location = "{{ site.github.url | replace_first:'http://','https://' }}/screen.html?commit={{ site.github.build_revision }}"
           console.log("Reloading: Was {{ site.github.build_revision }} - Now " + data);
         }
