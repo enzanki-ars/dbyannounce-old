@@ -11,12 +11,12 @@
 
     function reload(){
       $.get("{{ site.github.url | replace_first:'http://','https://' }}/api/commit", function(data){
-        if("{{ site.github.commit }}"!==data) {
+        if("{{ site.github.build_revision }}"!==data) {
           location.reload(true);
-          console.log("Reloading: Was {{ site.github.commit }} - Now " + data);
+          console.log("Reloading: Was {{ site.github.build_revision }} - Now " + data);
         }
         else {
-          console.log("Not Reloading: Current {{ site.github.commit }} - Recieved " + data);
+          console.log("Not Reloading: Current {{ site.github.build_revision }} - Recieved " + data);
         }
       });
     }
